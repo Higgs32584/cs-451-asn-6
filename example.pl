@@ -102,8 +102,6 @@ parent(leah,dinah).
 parent(adah, eliphaz).
 parent(aholibamah,korah).
 
-:- myisempty(S).
- S =\= [].
 
 
 parent(abraham,Child),parent(Child,GrandChild),parent(GrandChild,GreatGrandChild)).
